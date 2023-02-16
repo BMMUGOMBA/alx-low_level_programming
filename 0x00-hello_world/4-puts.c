@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main -Entry point
+ *
+ * Return: Must return zero if correct
+ */
 
 int main(void)
 {
