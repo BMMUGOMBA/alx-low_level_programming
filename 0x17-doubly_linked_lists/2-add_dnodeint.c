@@ -15,12 +15,12 @@ new_node = (struct Node *)malloc(sizeof(struct Node));
 
 new_node->n = new_data;
 
-new_node->next = (**head);
+new_node->next = (*head);
 new_node->prev = NULL;
 
-if ((**head) != NULL)
-(**head)->prev = new_node;
+if ((*head) != NULL)
+(*head)->prev = new_node;
 
-(**head) = new_node;
+(*head) = new_node;
 return (NULL);
 }
